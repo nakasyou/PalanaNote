@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@/": "./",
+    "preact": "https://esm.sh/preact@10.13.2",
+    "preact/hooks": "https://esm.sh/preact@10.13.2/hooks"
+  }
+}

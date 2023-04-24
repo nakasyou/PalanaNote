@@ -1,0 +1,14 @@
+{
+  "tasks":{
+    "serve": "deno run -A serve.ts",
+    "dev": "deno task serve & deno task watch",
+    "watch": "deno run -A build.ts watch"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window","dom"],
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment"
+  }
+}
